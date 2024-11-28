@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"; // Asegúrate de importar Link
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"; 
 import "./App.css";
 import Compra from "./Compra";
 
@@ -13,36 +13,36 @@ function App() {
         <Route
           path="/"
           element={
-            <section className="relative bg-gray-900 text-white h-screen">
+            <section className="relative bg-gray-900 text-white min-h-screen">
               {/* Imagen de fondo */}
               <img
                 src="/img/fondologin2.png"
                 alt="Imagen de fondo"
-                className="absolute inset-0 w-full h-full object-cover z-0"
+                className="absolute inset-0 w-full h-full object-cover z-0 opacity-50"
               />
               {/* Contenido */}
-              <div className="relative z-10 flex h-full items-start bg-slate-950 bg-opacity-40">
-                <div className="p-80 text-left">
-                  <h1 className="bg-gradient-to-r from-white via-cyan-400 to-cyan-500 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
+              <div className="relative z-10 p-80 flex items-center justify-start h-full  px-6 sm:px-12">
+                <div className="max-w-lg text-center sm:text-left">
+                  <h1 className="bg-gradient-to-r from-white via-cyan-400 to-cyan-500 bg-clip-text text-3xl font-extrabold text-transparent sm:text-4xl lg:text-5xl">
                     ADCORE
-                    <span className="block">GESTIÓN RÁPIDA Y FÁCIL</span>
+                    <span className="block mt-1">GESTIÓN RÁPIDA Y FÁCIL</span>
                   </h1>
 
-                  <p className="mt-4 max-w-md sm:text-xl/relaxed">
+                  <p className="mt-4 text-sm leading-relaxed sm:text-base lg:text-lg">
                     El 95% de los servidores no gestionan sus datos desde
                     cualquier lugar
                   </p>
 
-                  <div className="mt-8 flex flex-wrap gap-4">
+                  <div className="mt-6 flex flex-col gap-4 sm:flex-row">
                     <Link
-                      to="/compra" // Usamos `to` en lugar de `href`
-                      className="block rounded border border-emerald-500 bg-emerald-500 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75"
+                      to="/compra"
+                      className="block rounded border border-emerald-500 bg-emerald-500 px-6 py-2 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75"
                     >
                       COMPRAR
                     </Link>
 
                     <a
-                      className="block rounded border border-emerald-500 px-12 py-3 text-sm font-medium text-white hover:bg-emerald-500 focus:outline-none focus:ring active:bg-blue-500"
+                      className="block rounded border border-emerald-500 px-6 py-2 text-sm font-medium text-white hover:bg-emerald-500 focus:outline-none focus:ring active:bg-emerald-500"
                       href="#"
                     >
                       LEER MÁS

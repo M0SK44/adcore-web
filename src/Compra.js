@@ -1,23 +1,21 @@
-// Compra.js
 import React from 'react';
 import './App.css';
 
 function Compra() {
   return (
-    <section className="bg-gray-900 py-36 ">
-        
+    <section className="bg-gray-900 py-36 min-h-screen flex items-center  ">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
       <img
         src="/img/fondocompra.jpg"
         alt="Imagen de fondo"
-        className="absolute inset-0 w-full h-full object-cover z-0 "
+        className="absolute inset-0 w-full h-full object-cover z-0 opacity-50"
       />
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-opacity-50">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-extrabold text-white sm:text-5xl">
             Planes de Precios
           </h2>
-          <p className="mt-4 text-xl text-gray-400">
-            Precios simples y transparentes para tus necesidades de negocio.
+          <p className="mt-4 text-xl text-white">
+            Precios simples y transparentes para tus necesidadades.
           </p>
         </div>
 
@@ -122,7 +120,7 @@ function Compra() {
                 <span>Características de creación de admin</span>
               </li>
             </ul>
-            <a href="#" className="block w-full py-3 px-6 text-center rounded-md text-white font-medium bg-gradient-to-r from-cyan-500 to-yellow-500 hover:from-yellow-600 hover:to-esmerald-600">
+            <a href="#" className="block w-full py-3 px-6 text-center rounded-md text-white font-medium bg-gradient-to-r from-cyan-500 to-esmerald-500 hover:from-cyan-600 hover:to-esmerald-600">
               Empezar
             </a>
           </div>
@@ -131,5 +129,4 @@ function Compra() {
     </section>
   );
 }
-
 export default Compra;
