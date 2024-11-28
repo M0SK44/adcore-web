@@ -23,7 +23,7 @@ function Compra() {
 
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {/* Plan Mensual */}
-          <div className="bg-slate-950 rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
+          <div className="bg-slate-900 rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
             <div className="mb-8">
               <h3 className="text-2xl font-semibold text-white">Mensual</h3>
               <p className="mt-4 text-gray-400">
@@ -100,7 +100,7 @@ function Compra() {
 
           {/* Resto de planes... */}
 
-          <div className="bg-slate-950 rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
+          <div className="bg-slate-900 rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
             <div className="mb-8">
               <h3 className="text-2xl font-semibold text-white">Trimestral</h3>
               <p className="mt-4 text-gray-400">
@@ -175,7 +175,7 @@ function Compra() {
             </a>
           </div>
 
-          <div className="bg-slate-950 rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
+          <div className="bg-slate-900 rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
             <div className="mb-8">
               <h3 className="text-2xl font-semibold text-white">Anual</h3>
               <p className="mt-4 text-gray-400">
