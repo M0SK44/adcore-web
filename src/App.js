@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom"; 
 import "./App.css";
 import Compra from "./Compra";
+import QuienesSomos from "./QuienesSomos";
 
 function App() {
   return (
@@ -8,12 +9,12 @@ function App() {
       <Routes>
         {/* Ruta para la página de Compra */}
         <Route path="/compra" element={<Compra />} />
-
+        <Route path="/QuienesSomos" element={<QuienesSomos />} />
         {/* Ruta por defecto (página inicial) */}
         <Route
           path="/"
           element={
-            <section className="relative bg-gray-900 text-white min-h-screen">
+            <section className="relative bg-slate-950 text-white min-h-screen">
               {/* Imagen de fondo */}
               <img
                 src="/img/fondologin2.png"
@@ -41,12 +42,12 @@ function App() {
                       COMPRAR
                     </Link>
 
-                    <a
-                      className="block rounded border border-emerald-500 px-6 py-2 text-sm font-medium text-white hover:bg-emerald-500 focus:outline-none focus:ring active:bg-emerald-500"
-                      href="#"
+                    <Link
+                      to="/QuienesSomos"
+                      className="block rounded border border-emerald-500 bg-emerald-500 px-6 py-2 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75"
                     >
-                      LEER MÁS
-                    </a>
+                      LEER MAS
+                    </Link>
                   </div>
                 </div>
               </div>

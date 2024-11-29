@@ -3,7 +3,7 @@ import "./App.css";
 
 function Compra() {
   return (
-    <section className="relative bg-gray-900 py-36 min-h-screen flex items-center">
+    <section className="relative bg-slate-950 py-36 min-h-screen flex items-center">
       {/* Fondo */}
       <div
         className="absolute inset-0 bg-cover bg-center z-0 opacity-50"
@@ -25,7 +25,7 @@ function Compra() {
           {/* Plan Mensual */}
           <div className="bg-slate-900 rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
             <div className="mb-8">
-              <h3 className="text-2xl font-semibold text-white">Mensual</h3>
+              <h3 className="text-2xl font-semibold text-cyan-500">Mensual</h3>
               <p className="mt-4 text-gray-400">
                 Acceso a todos los datos del servidor, rangos de mod y admin, y
                 características de creación de admin.
@@ -102,7 +102,7 @@ function Compra() {
 
           <div className="bg-slate-900 rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
             <div className="mb-8">
-              <h3 className="text-2xl font-semibold text-white">Trimestral</h3>
+              <h3 className="text-2xl font-semibold text-emerald-500">Trimestral</h3>
               <p className="mt-4 text-gray-400">
                 Acceso a todos los datos del servidor, rangos de mod y admin, y
                 características de creación de admin.
@@ -177,14 +177,14 @@ function Compra() {
 
           <div className="bg-slate-900 rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
             <div className="mb-8">
-              <h3 className="text-2xl font-semibold text-white">Anual</h3>
+              <h3 className="text-2xl font-semibold text-pink-500">Anual</h3>
               <p className="mt-4 text-gray-400">
                 Acceso a todos los datos del servidor, rangos de mod y admin, y
                 características de creación de admin.
               </p>
             </div>
             <div className="mb-8">
-              <span className="text-5xl font-extrabold text-white">
+              <span className="text-5xl font-extrabold text-yellow-300">
                 $130.990
               </span>
               <span className="text-xl font-medium text-gray-400">/1 año</span>

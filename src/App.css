@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Estilo de zoom de la imagen */
+.zoom-image {
+  transition: transform 0.3s ease-in-out;
+}
+
+.zoom-image:hover {
+  transform: scale(1.2); /* Aumenta el tamaño de la imagen al 120% */
+  cursor: zoom-in; /* Cambia el cursor a una lupa */
+}
+
